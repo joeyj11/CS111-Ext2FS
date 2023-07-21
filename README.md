@@ -1,6 +1,4 @@
-## UID: 905797640
-
-# Hey! I'm Filing Here
+# Ext2 Filesystem
 
 Implementation of an ext2 filesystem that outputs a mountable image.
 
@@ -17,7 +15,7 @@ make # compile the executable
 mkdir mnt # create a directory to mnt the cs111 filesystem to
 sudo mount -o loop cs111-base.img mnt # mount the filesystem, loop lets you use a file
 ```
-### Example
+## Example
 ```shell
 ls -ain
 # total 7
